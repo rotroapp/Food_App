@@ -1,0 +1,56 @@
+.control  {
+    /* max-height: 50vh;
+    overflow: auto; */
+    margin : 0.5rem
+}
+
+.control h1{
+    display: flex;
+    /* align-items: center; */
+
+    justify-content: center;
+}
+.control label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  display: block;
+   
+}
+
+.control input {
+    font : inherit;
+    border : 1ps solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap : 1px;
+}
+
+.actions button{
+    font: inherit;
+    color: #5a1a01;
+    cursor: pointer;
+    background-color: transparent;
+    border : none;
+    border-radius: 25px;
+    padding: 0.5rem 3rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color:   #ffe6dc;
+}
+
+.invalid label {
+    color: #ca3e51;
+  }
+  
+  .invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+  }
